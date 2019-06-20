@@ -1,0 +1,16 @@
+<view class='week-wrap clearfix'>
+  <view class="week-item {{index===weekActive?'week-active':''}}" wx:for="{{weekList}}" wx:key="index" data-index='{{index}}' bindtap='setWeekDate'>
+    {{item}}
+  </view>
+</view>
+<view class='schedule-list'>
+  <navigator class='schedule-item clearfix' wx:for="{{scheduleList}}" wx:key="index" url='../curriculum/curriculumDetail/curriculumDetail?id={{item.course_id}}&school_id={{item.school_id}}'>
+    <view class='schedule-left'>
+      {{item.start_time}}-{{item.end_time}}
+    </view>
+    <view class='schedule-right'>
+      <view class='schedule-title'>{{item.name}}</view>
+      <view class='schedule-address'>地址：{{item.address}}</view>
+    </view>
+  </navigator>
+</view>

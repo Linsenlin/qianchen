@@ -1,0 +1,42 @@
+.coach-list {
+  padding: 30rpx;
+}
+
+.coach-item {
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 30rpx;
+  padding: 30rpx;
+}
+
+.coach-item image {
+  float: left;
+  width: 115rpx;
+  border: 1rpx solid #d6d6d6;
+}
+
+.coach-right {
+  float: left;
+  padding-left: 30rpx;
+  width: 510rpx;
+  box-sizing: border-box;
+  font-size: 22rpx;
+  color: #666;
+  line-height: 34rpx;
+}
+
+.coach-title {
+  line-height: 30rpx;
+  margin-top: 10rpx;
+}
+
+.coach-name {
+  float: left;
+  font-size: 36rpx;
+  color: #333;
+  margin-right: 10rpx;
+}
+
+.coach-text {
+  margin-top: 10rpx;
+}

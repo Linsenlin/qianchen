@@ -1,0 +1,28 @@
+.tabs-btn>view {
+  float: left;
+  width: 50%;
+  line-height: 80rpx;
+  font-size: 30rpx;
+  border-bottom: 5rpx solid rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+.tabs-btn view view {
+  display: inline-block;
+}
+
+.tabs-btn .active view {
+  color: #0f71ca;
+  border-bottom: 5rpx solid #0f71ca;
+}
+
+.activity-list-wrap navigator {
+  margin: 30rpx 0;
+  border: none !important;
+  background: #fff;
+  padding: 30rpx 30rpx 0;
+}
+
+.curriculum-list-wrap {
+  padding: 30rpx;
+}

@@ -1,0 +1,3 @@
+<view class='schedule'>
+  <schedule page='{{page}}' pageSize="{{10}}" bindchangeWeek='changeWeek'></schedule>
+</view>

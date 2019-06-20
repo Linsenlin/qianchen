@@ -1,0 +1,30 @@
+.tabs {
+  background: #fff;
+  border-top: 1rpx solid #999;
+}
+
+.tabs>view {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+}
+
+.tabs>view>text {
+  display: inline-block;
+  line-height: 90rpx;
+  border-bottom: 5rpx solid #fff;
+  font-size: 36rpx;
+  color: #333;
+}
+
+.tabs>.tabs-active>text {
+  border-bottom: 5rpx solid #1074cc;
+  color: #1074cc;
+}
+
+.activity-list-wrap navigator {
+  background: #fff;
+  padding: 30rpx 30rpx 0;
+  margin: 30rpx 0;
+  border: none !important;
+}

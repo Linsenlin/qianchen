@@ -1,0 +1,16 @@
+.current-campus {
+  padding: 20rpx 30rpx 0;
+  font-size: 34rpx;
+  line-height: 54rpx;
+}
+
+.current-campus navigator {
+  display: inline-block;
+  color: #2380d0;
+}
+
+
+.hot-curriculum-list {
+  padding: 30rpx;
+}
+

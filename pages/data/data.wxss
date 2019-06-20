@@ -1,0 +1,120 @@
+.data-wrap {
+  padding: 30rpx;
+}
+
+/* 雷达图 */
+
+.average {
+  width: 100vw;
+  height: 50vh;
+  padding-bottom: 30rpx;
+  background: #fff;
+}
+
+/* 其他信息 */
+
+.information {
+  background: #fff;
+  margin-bottom: 30rpx;
+  border-radius: 20rpx;
+  padding: 30rpx 0;
+}
+
+.information>view {
+  float: left;
+  text-align: center;
+}
+
+.information>view>view:nth-of-type(1) {
+  color: #999;
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+
+.habit {
+  width: 170rpx;
+}
+
+.habit image {
+  width: 70rpx;
+}
+
+.grade {
+  width: 259rpx;
+  border-left: 1rpx solid #d8d8d8;
+}
+
+/* 进度条 */
+
+.progress {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 30rpx;
+}
+
+/* 位置 */
+
+.data-item {
+  background: #fff;
+  border-radius: 20rpx;
+}
+
+.item-title {
+  line-height: 96rpx;
+  font-size: 34rpx;
+  color: #000;
+  padding-left: 30rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.position {
+  padding: 50rpx 30rpx;
+  position: relative;
+}
+
+.position-bg {
+  position: absolute;
+  left: 29rpx;
+  top: 54rpx;
+  width: 630rpx;
+  z-index: 99;
+}
+
+.position-left, .position-center, .position-right {
+  float: left;
+}
+
+.position-left, .position-right {
+  width: 100rpx;
+}
+
+.position-center {
+  width: 400rpx;
+  padding: 0 15rpx;
+}
+
+.position-center .position-item {
+  height: 110rpx;
+}
+
+.position-left .position-item, .position-right .position-item {
+  height: 200rpx;
+}
+
+.position-item {
+  border-radius: 10rpx;
+  position: relative;
+  margin-bottom: 10rpx;
+}
+
+.position-item>view {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 24rpx;
+  line-height: 36rpx;
+}

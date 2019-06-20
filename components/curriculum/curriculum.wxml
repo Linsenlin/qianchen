@@ -1,0 +1,7 @@
+<view class='hot-curriculum-list'>
+  <navigator class='curriculum-item' style='background:url({{item.img}}) no-repeat 50% 50%/100%;' url='../curriculum/curriculumDetail/curriculumDetail?id={{item.id}}&school_id={{item.school_id}}' wx:for="{{curriculumList}}" wx:key="index">
+    <view class='curriculum-title clearfix'>
+      <view>{{item.model===0?'兴趣班':(item.model===1?'提高班':'梯队班')}}</view>
+    </view>
+  </navigator>
+</view>

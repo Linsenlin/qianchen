@@ -1,0 +1,104 @@
+page {
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.curriculum-img {
+  width: 100%;
+}
+
+.content {
+  padding: 0 45rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+}
+
+.content1 {
+  padding: 45rpx;
+}
+
+.content1-title {
+  font-size: 36rpx;
+  line-height: 36rpx;
+  padding-bottom: 40rpx;
+  color: #1074c9;
+  border-bottom: 1px dashed #bdbdbd;
+  margin-bottom: 30rpx;
+}
+
+.content1-info {
+  padding-left: 50rpx;
+  line-height: 40rpx;
+  font-size: 28rpx;
+  color: #333;
+  margin: 20rpx 0;
+}
+
+.content-title {
+  padding-left: 60rpx;
+  line-height: 84rpx;
+  font-size: 34rpx;
+  color: #333;
+  border-bottom: 1px solid #e4e3e3;
+}
+
+.content2-text {
+  font-size: 28rpx;
+  color: #666;
+  line-height: 48rpx;
+  padding: 10rpx 0 30rpx;
+}
+
+.content3 {
+  padding-bottom: 30rpx;
+}
+
+.content3-item {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 18rpx;
+  color: #999;
+  margin: 30rpx 0 15rpx;
+}
+
+.content3-item image {
+  width: 120rpx;
+  border-radius: 50%;
+}
+
+.content3-name {
+  width: 120rpx;
+  background: #0f74cc;
+  color: #fff;
+  font-size: 20rpx;
+  margin: 10rpx auto;
+  border-radius: 50rpx;
+  line-height: 34rpx;
+}
+
+.content5-item-title {
+  font-size: 28rpx;
+  color: #0f74cc;
+  margin-top: 30rpx;
+}
+
+.content5 {
+  padding-bottom: 30rpx;
+}
+
+.content5-item-text {
+  font-size: 28rpx;
+  line-height: 50rpx;
+  color: #333;
+}
+
+.buy {
+  text-align: center;
+  background: #0f74cc;
+  font-size: 36rpx;
+  line-height: 80rpx;
+  color: #fff;
+  margin-top: 30rpx;
+}

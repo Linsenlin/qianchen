@@ -1,0 +1,58 @@
+.curriculum-list {
+  padding: 30rpx;
+  color: #fff;
+}
+
+.curriculum-item {
+  margin-bottom: 30rpx;
+  display: block;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  min-height: 150rpx;
+  background: #0f71ca;
+}
+
+.curriculum-title {
+  font-size: 30rpx;
+  display: inline-block;
+}
+
+.curriculum-title view {
+  display: inline-block;
+  font-size: 20rpx;
+  color: #0f71ca;
+  line-height: 34rpx;
+  border-radius: 50rpx;
+  padding: 0 15rpx;
+  background: #fff;
+  margin-left: 10rpx;
+  vertical-align: middle;
+}
+
+.gross {
+  font-size: 20rpx;
+  margin-top: 10rpx;
+}
+
+.now {
+  font-size: 26rpx;
+  margin-top: 25rpx;
+  line-height: 42rpx;
+}
+
+.now-left {
+  float: left;
+}
+
+.now-left view {
+  float: right;
+  padding: 0 10rpx;
+  border-radius: 6rpx;
+  color: #ff0101;
+  background: #fff;
+}
+
+.now-right {
+  float: right;
+}

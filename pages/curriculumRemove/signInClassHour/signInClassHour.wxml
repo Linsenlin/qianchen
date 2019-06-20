@@ -1,0 +1,5 @@
+<view class="class-hour-list">
+  <view class="class-hour-item clearfix" wx:for="{{signInClassHourList}}" wx:key="index" style="background:url({{static}}/date.png) no-repeat 0 50%/44rpx;">
+    {{item.day}} <view></view> {{item.start_time}} - {{item.end_time}}
+  </view>
+</view>

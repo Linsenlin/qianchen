@@ -1,0 +1,33 @@
+<view class="activity-list">
+  <navigator class="list-item" wx:for="{{activityList}}" wx:key="index" url='../../pages/activity/activityDetail/activityDetail?id={{item.id}}'>
+    <view class="item-info clearfix">
+      <image src="{{item.img}}" mode='widthFix'></image>
+      <view class="info-right">
+        <view class="right-title">
+          {{item.title}}
+        </view>
+        <view class="right-item">
+          <view class="color-676767">活动时间：</view>
+          {{item.start_time}}至{{item.end_time}}
+        </view>
+        <view class="right-item">
+          <view class="color-676767">截止报名时间：</view>
+          {{item.end_enroll}}
+        </view>
+        <view class="right-item">
+          <view class="color-676767">活动地点：</view>
+          {{item.address}}
+        </view>
+      </view>
+    </view>
+    <view class="item-handle clearfix">
+      <view class="money">
+        <view>费用：</view>
+        ￥ {{item.money}} 元
+      </view>
+      <view class="handle-btn {{item.status===2?'end':''}}">
+        {{item.status===0?'立即报名':(item.status===1?'已报名':'报名结束')}}
+      </view>
+    </view>
+  </navigator>
+</view>

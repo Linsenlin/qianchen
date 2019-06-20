@@ -1,0 +1,75 @@
+.item-info image {
+  float: left;
+  width: 170rpx;
+}
+
+.item-info {
+  padding-bottom: 30rpx;
+  border-bottom: 1rpx dashed #dadada;
+}
+
+.info-right {
+  float: left;
+  width: 500rpx;
+  margin-left: 20rpx;
+}
+
+.right-title {
+  font-size: 30rpx;
+  line-height: 30rpx;
+  margin-bottom: 15rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.right-item {
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+
+.right-item>view {
+  float: left;
+}
+
+.item-handle {
+  padding: 20px 0;
+  line-height: 45rpx;
+}
+
+.money {
+  float: left;
+  color: #ff0034;
+}
+
+.money>view {
+  float: left;
+  color: #333;
+}
+
+.handle-btn {
+  float: right;
+  font-size: 28rpx;
+  padding: 0 24rpx;
+  color: #fff;
+  background: #0f74cc;
+  border-radius: 50rpx;
+}
+
+.handle-btn.end {
+  background: #999;
+}
+
+.activity-list>navigator:nth-of-type(n+2) {
+  padding-top: 30rpx;
+  border-top: 1rpx solid #ccc;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}

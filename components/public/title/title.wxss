@@ -1,0 +1,15 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.head-text {
+  font-size: 38rpx;
+  line-height: 110rpx;
+  padding-left: 70rpx;
+  float: left;
+}

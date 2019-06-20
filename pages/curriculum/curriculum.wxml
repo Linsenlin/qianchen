@@ -1,0 +1,8 @@
+<view class='current-campus'>
+  当前校区：
+  <navigator url='../../pages/campus/selectCampus/selectCampus'>{{campusInfo.school_name}}</navigator>
+</view>
+
+<view class='hot-curriculum-list'>
+  <curriculum curriculumList="{{curriculumList}}"></curriculum>
+</view>

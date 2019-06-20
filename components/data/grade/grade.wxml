@@ -1,0 +1,4 @@
+<view class='grade clearfix'>
+  <image src='{{static}}/star1.png' mode='widthFix' wx:for="{{grade+1}}" wx:key="index"></image>
+  <image src='{{static}}/star2.png' mode='widthFix' wx:for="{{5-grade-1}}" wx:key="index"></image>
+</view>

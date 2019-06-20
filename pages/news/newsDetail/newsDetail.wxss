@@ -1,0 +1,40 @@
+.news-detail {
+  padding: 30rpx;
+  background: #fff;
+  margin-top: 30rpx;
+}
+
+.news-title {
+  font-size: 38rpx;
+  color: #333;
+  margin-top: 10rpx;
+  text-align: center;
+}
+
+.news-info>view {
+  font-size: 26rpx;
+  color: #999;
+  padding-left: 35rpx;
+  margin: 25rpx 0;
+}
+
+.news-info>view:nth-of-type(1) {
+  float: left;
+}
+
+.news-info>view:nth-of-type(2) {
+  float: right;
+}
+
+.news-img {
+  width: 100%;
+  margin: 10rpx 0;
+}
+
+.news-content p {
+  width: 100px;
+}
+
+.news-content {
+  overflow: hidden;
+}

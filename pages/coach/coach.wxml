@@ -1,0 +1,16 @@
+<view class="coach-list">
+  <navigator class='coach-item clearfix' wx:for="{{coachList}}" wx:key="index" url='./coachDetail/coachDetail?id={{item.id}}'>
+    <image src='{{item.avatar}}' mode='widthFix'></image>
+    <view class='coach-right'>
+      <view class='coach-title clearfix'>
+        <view class='coach-name'>
+          {{item.name}}
+        </view>
+        教练
+      </view>
+      <view class="coach-text">
+        {{item.instruction}}
+      </view>
+    </view>
+  </navigator>
+</view>

@@ -1,0 +1,36 @@
+<navigator class='user clearfix' url="../userInfo/userInfo">
+  <view class='user-img' style='background:url({{userInfo.avatar}}) no-repeat 50% 50%/100%;'></view>
+  <view class='user-handle'>
+    <view class='user-title'>
+      {{userInfo.user_name}}
+    </view>
+  </view>
+  <view class='next'></view>
+</navigator>
+
+<navigator class="buy-curriculum" style='background:url({{static}}/img2_03.png) no-repeat 50% 50%/100% 100%;' url="../curriculum/curriculum">
+  <view>购买课程</view>
+</navigator>
+
+<view class='user-data-list clearfix'>
+  <navigator class='user-data-item' style='background:#0f71c9 url({{static}}/img4_03.png) no-repeat 50% 32rpx/68rpx;' url='../orderForm/orderForm'>
+    <view>
+      我的订单
+    </view>
+  </navigator>
+  <navigator class='user-data-item' style='background:#0f71c9 url({{static}}/img4_05.png) no-repeat 50% 32rpx/81rpx;' url='../data/data'>
+    <view>
+      身体数据
+    </view>
+  </navigator>
+  <navigator class='user-data-item' style='background:#0f71c9 url({{static}}/img3_10.png) no-repeat 50% 32rpx/75rpx;' url='../curriculumRemove/curriculumRemove'>
+    <view>
+      我的课消
+    </view>
+  </navigator>
+  <navigator class='user-data-item' style='background:#0f71c9 url({{static}}/img4_10.png) no-repeat 50% 32rpx/68rpx;' url='../protocol/protocol'>
+    <view>
+      签约
+    </view>
+  </navigator>
+</view>

@@ -1,0 +1,117 @@
+page {
+  padding: 0 75rpx;
+  box-sizing: border-box;
+}
+
+.user-img {
+  text-align: center;
+}
+
+.user-img image {
+  width: 200rpx;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 90rpx 0 65rpx;
+}
+
+.sex {
+  width: 320rpx;
+  margin: 0 auto;
+}
+
+.sex>view {
+  color: #707070;
+  font-size: 24rpx;
+  line-height: 52rpx;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.sex>view image {
+  width: 50rpx;
+  float: left;
+  margin-right: 15rpx;
+}
+
+.sex>view .img1 {
+  display: none;
+}
+
+.sex>view:nth-of-type(1) {
+  float: left;
+  border-right: 1rpx solid #999;
+}
+
+.sex>view:nth-of-type(2) {
+  float: right;
+  padding-left: 60rpx;
+}
+
+.sex .active .img {
+  display: none;
+}
+
+.sex .active .img1 {
+  display: block;
+}
+
+.sex>view:nth-of-type(1).active {
+  color: #2f84d1;
+}
+
+.sex>view:nth-of-type(2).active {
+  color: #feb9c3;
+}
+
+.user-info-item {
+  border: 1rpx solid #ccc;
+  border-radius: 50rpx;
+  background: #fff;
+  margin-top: 30rpx;
+  padding: 10rpx 0;
+}
+
+.user-info-item>view {
+  float: left;
+  line-height: 34rpx;
+  width: 25%;
+  border-right: 1rpx solid #999;
+  box-sizing: border-box;
+  font-size: 22rpx;
+  text-align: center;
+  margin-top: 10rpx;
+}
+
+.user-info-item input {
+  float: left;
+  line-height: 34rpx;
+  width: 72%;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}
+
+.send-user-info {
+  line-height: 80rpx;
+  background: #0f71ca;
+  color: #fff;
+  font-size: 32rpx;
+  text-align: center;
+  border-radius: 50rpx;
+  margin-top: 30rpx;
+}
+
+.hint {
+  font-size: 24rpx;
+  color: #999;
+  margin-top: 25rpx;
+}
+
+.picker {
+  float: left;
+  line-height: 52rpx;
+  width: 72%;
+  box-sizing: border-box;
+  font-size: 24rpx;
+  padding-left: 20rpx;
+}

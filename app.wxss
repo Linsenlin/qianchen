@@ -1,0 +1,32 @@
+/**app.wxss**/
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+page {
+  background: #f2f3f7;
+  color: #333;
+}
+
+.color-676767 {
+  color: #676767 !important;
+}
+
+.color-ff0034 {
+  color: #ff0034 !important;
+}
+
+.color-33cc00 {
+  color: #3c0 !important;
+}
+
+.pd-lr30 {
+  padding-left: 30rpx;
+  padding-top: 30rpx;
+}

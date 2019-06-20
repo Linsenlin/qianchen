@@ -1,0 +1,60 @@
+<view class='current-campus clearfix'>
+
+  <view class='change-btn' style='background: #0c75bf url({{static}}/change.png) no-repeat 90% 50%/25rpx;'>切换校区</view>
+  <navigator url='selectCampus/selectCampus'>{{campusInfo.school_name}}</navigator>
+</view>
+<swiper class='swiper-camp' indicator-dots="true" autoplay="true" indicator-color="#fff" indicator-active-color="#025194">
+  <block wx:for="{{bannerImgs}}" wx:key="index">
+    <swiper-item>
+      <navigator url='{{item.url}}'>
+        <image src='{{item.img}}'></image>
+      </navigator>
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='content-wrap'>
+  <title icon="{{static}}/hot.png" text="日程安排" url="../schedule/schedule"></title>
+  <schedule pageSize="{{5}}"></schedule>
+</view>
+
+<view class='content-wrap'>
+  <title icon="{{static}}/hot.png" text="热门课程" url="../curriculum/curriculum"></title>
+  <curriculum curriculumList="{{curriculumList}}"></curriculum>
+</view>
+
+<view class='content-wrap' style='display:none;'>
+  <title icon="{{static}}/trainer.png" text="营区团队" url="../coach/coach"></title>
+  <view class='leader clearfix' wx:if="{{mainTeacher.name}}">
+    <image src='{{mainTeacher.avatar}}' class="leader-img"></image>
+    <view class=''>
+      <view class='leader-name'>
+        {{mainTeacher.name}}
+      </view>
+      <view class='leader-introduce'>
+        {{mainTeacher.instruction}}
+      </view>
+      <navigator class='watch-detail' url='../coach/coachDetail/coachDetail?id={{mainTeacher.id}}'>
+        查看详情
+      </navigator>
+    </view>
+  </view>
+  <view class="coach-list clearfix">
+    <view class="coach-item" wx:for="{{teacherList}}" wx:key="index">
+      <image src='{{item.avatar}}' class="coach-img"></image>
+      <view class='coach-name'>
+        {{item.name}}
+      </view>
+
+      <navigator class='coach-detail' url='../coach/coachDetail/coachDetail?id={{item.id}}'>
+        查看详情
+      </navigator>
+    </view>
+  </view>
+</view>
+
+<view class='content-wrap'>
+  <title icon="{{static}}/news.png" text="营区学院头条" url="../news/news?id={{campusInfo.id}}"></title>
+  <newsBanner data="{{newsBanner}}"></newsBanner>
+  <news newsList="{{newsList}}"></news>
+</view>

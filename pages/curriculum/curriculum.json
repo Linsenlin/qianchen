@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "curriculum": "../../components/curriculum/curriculum"
+  },
+  "navigationBarTitleText": "课程列表"
+}

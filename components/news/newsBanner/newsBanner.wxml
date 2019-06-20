@@ -1,0 +1,4 @@
+<navigator class='news-banner clearfix' url='../../pages/news/newsDetail/newsDetail?id={{data.id}}'>
+  <image src='{{data.img}}'></image>
+  <view>{{data.title}}</view>
+</navigator>

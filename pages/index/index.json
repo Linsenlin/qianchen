@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "title": "../../components/public/title/title",
+    "activity": "../../components/activity/activity",
+    "news": "../../components/news/news",
+    "newsBanner": "../../components/news/newsBanner/newsBanner"
+  }
+}

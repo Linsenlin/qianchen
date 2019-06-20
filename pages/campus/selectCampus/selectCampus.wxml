@@ -1,0 +1,19 @@
+<view class='select-campus' wx:for="{{campusList}}" wx:key="index">
+  <view class="campus-item {{item.id===campusInfo.id?'campus-active':''}}" bindtap='selectCampus'
+    data-campus='{{item}}'>
+    <view class='campus-name'>
+      {{item.school_name}}
+    </view>
+    <view class='campus-address'>
+      地址： {{item.city.areas[0]}}-{{item.city.areas[1]}}-{{item.city.areas[2]}} {{item.address}}
+    </view>
+    <view class='campus-phone-number'>
+      电话： {{item.phone}}
+    </view>
+    <view class='campus-show clearfix'>
+      <image src='{{imgItem.url}}' wx:for="{{item.imgs}}" wx:for-item="imgItem" wx:for-index="imgIndex"
+        wx:key="imgIndex"></image>
+    </view>
+  </view>
+
+</view>

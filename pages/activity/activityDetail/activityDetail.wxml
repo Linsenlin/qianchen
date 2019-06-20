@@ -1,0 +1,47 @@
+<view class='activity-introduce'>
+  <image src='{{activityDetail.img}}' mode='widthFix'></image>
+  <view class='activity-title'>
+    {{activityDetail.title}}
+  </view>
+  <view class='activity-text'>
+    <rich-text nodes="{{activityDetail.content}}">
+    </rich-text>  
+  </view>
+</view>
+
+<view class="activity-info">
+  <view class="clearfix">
+    <view class="activity-info-title" style="background:url({{static}}/img5_03.png) no-repeat 5rpx 50%/30rpx;">
+      活动时间
+    </view>
+    {{activityDetail.start_time}}至{{activityDetail.end_time}}
+  </view>
+  <view class="clearfix color-33cc00">
+    <view class="activity-info-title" style="background:url({{static}}/img5_07.png) no-repeat 5rpx 50%/27rpx;">
+      报名截止时间
+    </view>
+    {{activityDetail.end_enroll}}
+  </view>
+  <view class="clearfix">
+    <view class="activity-info-title" style="background:url({{static}}/img5_11.png) no-repeat 5rpx 50%/36rpx;">
+      参与人数
+    </view>
+    {{activityDetail.members}}人
+  </view>
+  <view class="clearfix color-ff0034">
+    <view class="activity-info-title" style="background:url({{static}}/img5_15.png) no-repeat 5rpx 50%/30rpx;">
+      费用
+    </view>
+    ￥{{activityDetail.money}}
+  </view>
+  <view class="clearfix">
+    <view class="activity-info-title" style="background:url({{static}}/img5_19.png) no-repeat 5rpx 50%/22rpx;">
+      地点
+    </view>
+    {{activityDetail.address}}
+  </view>
+</view>
+
+<view class="join-activity-btn {{activityDetail.status===2?'end':''}}" bindtap="{{activityDetail.status===0?'nowSignUp':''}}">
+  {{activityDetail.status===0?'立即报名':(activityDetail.status===1?'已报名':'报名结束')}}
+</view>

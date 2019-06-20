@@ -1,0 +1,4 @@
+.schedule {
+  padding: 30rpx;
+  background: #fff;
+}

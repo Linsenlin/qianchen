@@ -1,0 +1,2 @@
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class='login'>授权微信登录</button>
+<!--<button open-type="openSetting">打开设置页</button> -->

@@ -1,0 +1,5 @@
+<navigator url='{{url}}' class='content-head clearfix' style='background:url({{static}}/more_03.png) no-repeat 100% 50%/48rpx;'>
+  <view class='head-text' style='background:url({{icon}}) no-repeat 0 50%/50rpx;'>
+    {{text}}
+  </view>
+</navigator>

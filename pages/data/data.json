@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../components/data/ec-canvas/ec-canvas",
+    "data-progress": "../../components/data/data-progress/data-progress",
+    "grade": "../../components/data/grade/grade"
+  },
+  "navigationBarTitleText": "我的成绩"
+}

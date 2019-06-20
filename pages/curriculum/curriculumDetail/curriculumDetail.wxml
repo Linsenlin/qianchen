@@ -1,0 +1,86 @@
+<image src="{{curriculumData.main_img}}" class="curriculum-img" mode="widthFix"></image>
+
+<view class="content content1">
+  <view class="content1-title">
+    {{curriculumData.name}}
+  </view>
+  <view class="content1-info" style="background:url({{static}}/img7_03.png) no-repeat 0 50%/32rpx;">
+    {{curriculumData.start_time}} - {{curriculumData.end_time}}
+  </view>
+  <view class="content1-info color-ff0034" style="background:url({{static}}/img7_06.png) no-repeat 0 50%/32rpx;">
+    {{curriculumData.money}}元
+  </view>
+  <view class="content1-info" style="background:url({{static}}/img7_08.png) no-repeat 0 50%/32rpx;">
+    {{curriculumData.location.areas[0]}}-{{curriculumData.location.areas[1]}}-{{curriculumData.location.areas[2]}} {{curriculumData.address}}
+  </view>
+</view>
+
+<view class="content content2">
+  <view class="content-title" style="background:url({{static}}/img7_10.png) no-repeat 0 50%/44rpx;">
+    课程介绍
+  </view>
+  <view class="content2-text">
+    <rich-text nodes="{{curriculumData.content}}">
+    </rich-text>
+  </view>
+</view>
+
+<view class="content content3">
+  <view class="content-title" style="background:url({{static}}/trainer.png) no-repeat 0 50%/44rpx;">
+    教练
+  </view>
+  <view class="content3-list clearfix">
+    <navigator class='content3-item' wx:for="{{curriculumData.teachers}}" wx:key="index" url='../../coach/coachDetail/coachDetail?id={{item.teacher_id}}'>
+      <image src='{{item.avatar}}' mode='widthFix'></image>
+      <view class='content3-name'>
+        {{item.name}}
+      </view>
+      {{item.type===0?'助教':'主教'}}
+    </navigator>
+  </view>
+</view>
+
+<view class="content content4">
+  <view class="content-title" style="background:url({{static}}/trainer.png) no-repeat 0 50%/44rpx;">
+    适应人群
+  </view>
+  <view class="content2-text">
+    {{curriculumData.suit}}
+  </view>
+</view>
+
+<view class="content content5">
+  <view class="content-title" style="background:url({{static}}/img8_03.png) no-repeat 0 50%/44rpx;">
+    注意事项
+  </view>
+  <view class="content5-list">
+    <view class="content5-item">
+      <view class="content5-item-title">
+        说明
+      </view>
+      <view class="content5-item-text">
+        {{curriculumData.instruct}}
+      </view>
+    </view>
+    <view class="content5-item">
+      <view class="content5-item-title">
+        运动装备
+      </view>
+      <view class="content5-item-text">
+        {{curriculumData.equipment}}
+      </view>
+    </view>
+    <view class="content5-item">
+      <view class="content5-item-title">
+        设施
+      </view>
+      <view class="content5-item-text">
+        {{curriculumData.facilities}}
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="buy" bindtap="{{curriculumData.status===0?'payCurriculum':''}}">
+  {{curriculumData.status===0?'立即购买':'已购买'}}
+</view>

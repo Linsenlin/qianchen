@@ -1,0 +1,73 @@
+<view class="average">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+</view>
+
+<view class='data-wrap'>
+  <view class='information clearfix'>
+    <view class='habit'>
+      <view>
+        惯用脚
+      </view>
+      <image wx:if="{{studentData.idiomatic_feet===0}}" src='{{static}}/foot2.png' mode='widthFix'></image>
+      <image wx:else src='{{static}}/foot1.png' mode='widthFix'></image>
+    </view>
+    <view class='grade'>
+      <view>
+        逆足能力
+      </view>
+      <grade grade="{{studentData.inverse_foot}}"></grade>
+    </view>
+    <view class='grade'>
+      <view>
+        花式技巧
+      </view>
+      <grade grade="{{studentData.fancy_tricks}}"></grade>
+    </view>
+  </view>
+  <data-progress class="progress" wx:for="{{progressList}}" wx:key="index" progressData="{{item}}"></data-progress>
+
+  <view class='data-item'>
+    <view class='item-title'>
+      位置能力
+    </view>
+    <view class='position clearfix'>
+      <image class='position-bg' src='{{static}}/line2.png' mode='widthFix'></image>
+      <view class='position-left'>
+        <view class='position-item' wx:for="{{positionData.left}}" wx:key="index" style="background:{{item.background}};">
+          <view>
+            <view>
+              {{item.name}}
+            </view>
+            <view>
+              {{item.value}}
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='position-center'>
+        <view class='position-item' wx:for="{{positionData.center}}" wx:key="index" style="background:{{item.background}};">
+          <view>
+            <view>
+              {{item.name}}
+            </view>
+            <view>
+              {{item.value}}
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='position-right'>
+        <view class='position-item' wx:for="{{positionData.right}}" wx:key="index" style="background:{{item.background}};">
+          <view>
+            <view>
+              {{item.name}}
+            </view>
+            <view>
+              {{item.value}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

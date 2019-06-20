@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "curriculum": "../../components/curriculum/curriculum",
+    "activity": "../../components/activity/activity"
+  },
+  "navigationBarTitleText": "我的订单"
+}

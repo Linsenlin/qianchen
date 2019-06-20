@@ -1,0 +1,33 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.news-banner {
+  position: relative;
+}
+
+.news-banner>image {
+  float: left;
+  width: 100%;
+}
+
+.news-banner view {
+  position: absolute;
+  width: 100%;
+  line-height: 46rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 10rpx;
+  box-sizing: border-box;
+}

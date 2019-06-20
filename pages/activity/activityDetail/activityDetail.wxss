@@ -1,0 +1,62 @@
+.activity-introduce {
+  background: #fff;
+}
+
+.activity-introduce>image {
+  width: 100%;
+}
+
+.activity-title {
+  padding: 0 30rpx;
+  line-height: 50rpx;
+  color: #333;
+  font-size: 38rpx;
+  text-align: center;
+  margin-top: 20rpx;
+  font-weight: bold;
+}
+
+.activity-text {
+  padding: 30rpx;
+  font-size: 32rpx;
+  color: #666;
+  line-height: 42rpx;
+}
+
+.activity-info {
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  background: #fff;
+}
+
+.activity-info>view {
+  line-height: 90rpx;
+  text-align: right;
+  font-size: 30rpx;
+  color: #333;
+}
+
+.activity-info>view:nth-of-type(n+2) {
+  border-top: 1rpx solid #ccc;
+}
+
+.activity-info-title {
+  float: left;
+  color: #666;
+  padding-left: 50rpx;
+}
+
+.join-activity-btn {
+  width: 690rpx;
+  line-height: 82rpx;
+  color: #fff;
+  background: #0f74cc;
+  border-radius: 50rpx;
+  margin: 30rpx auto;
+  text-align: center;
+}
+
+.end {
+  color: #333;
+  background: #ccc;
+}

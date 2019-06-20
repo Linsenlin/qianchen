@@ -1,0 +1,84 @@
+/* pages/my/my.wxss */
+
+.user {
+  background: #fff;
+  padding: 30rpx;
+  margin: 30rpx 0;
+  position: relative;
+}
+
+.user-img {
+  float: left;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+}
+
+.user-handle {
+  float: left;
+  margin-left: 30rpx;
+}
+
+.user-title {
+  font-size: 42rpx;
+  color: #333;
+  margin: 40rpx 0;
+}
+
+.next {
+  position: absolute;
+  width: 30rpx;
+  height: 30rpx;
+  border: 5rpx solid #999;
+  transform: translateY(-50%) rotate(45deg);
+  top: 50%;
+  right: 35rpx;
+  border-bottom: none;
+  border-left: none;
+}
+
+.buy-curriculum {
+  width: 690rpx;
+  margin: 0 auto;
+  height: 260rpx;
+  border-radius: 10rpx;
+  position: relative;
+}
+
+.buy-curriculum>view {
+  line-height: 52rpx;
+  padding: 0 25rpx;
+  background: #f58323;
+  color: #fff;
+  border-radius: 50rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 28rpx;
+}
+
+.user-data-list {
+  padding: 30rpx;
+  margin-top: 30rpx;
+}
+
+.user-data-list>navigator:nth-of-type(2n+2) {
+  margin-left: 23rpx;
+}
+
+.user-data-item {
+  float: left;
+  width: 335rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+  margin-bottom: 25rpx;
+  position: relative;
+}
+
+.user-data-item view {
+  margin-top: 120rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+}

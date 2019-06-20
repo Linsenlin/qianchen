@@ -1,0 +1,49 @@
+.select-campus {
+  width: 690rpx;
+  margin: 0 auto 30rpx;
+}
+
+.campus-scope {
+  font-size: 26rpx;
+  color: #666;
+  margin-top: 25rpx;
+}
+
+.campus-item {
+  background: #fff;
+  color: #0f71c9;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  font-size: 24rpx;
+  line-height: 42rpx;
+  margin-top: 25rpx;
+}
+
+.campus-name {
+  font-size: 32rpx;
+  margin-top: 15rpx;
+  font-weight: bold;
+}
+
+.campus-address {
+  margin-top: 20rpx;
+}
+
+.campus-phone-number {
+  margin-bottom: 20rpx;
+}
+
+.campus-show image {
+  float: left;
+  width: 196rpx;
+  height: 148rpx;
+}
+
+.campus-show image:nth-of-type(n+2) {
+  margin-left: 21rpx;
+}
+
+.campus-active {
+  background: #0f71c9;
+  color: #fff;
+}

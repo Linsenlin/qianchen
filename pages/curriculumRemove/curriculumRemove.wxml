@@ -1,0 +1,20 @@
+<view class='curriculum-list'>
+  <navigator class='curriculum-item' url='./signInClassHour/signInClassHour?id={{item.course_id}}' wx:for="{{curriculumList}}" wx:key="index">
+    <view class='curriculum-title'>
+      {{item.title}}
+      <view>{{item.model===0?'兴趣班':(item.model===1?'提高班':'梯队班')}}</view>
+    </view>
+    <view class='gross'>
+      总课时：{{item.surplus_num}} 课时
+    </view>
+    <view class='clearfix now'>
+      <view class='now-left'>
+        已上课时：
+        <view>{{item.called_num}} 课时</view>
+      </view>
+      <view class='now-right'>
+        剩余课时：{{item.surplus}} 课时
+      </view>
+    </view>
+  </navigator>
+</view>

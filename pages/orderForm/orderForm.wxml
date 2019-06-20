@@ -1,0 +1,18 @@
+<view class='tabs-btn clearfix'>
+  <view class="{{tabsIndex===0?'active':''}}">
+    <view bindtap='changeTabs' data-index='{{0}}'>
+      我购买的课程
+    </view>
+  </view>
+  <view class="{{tabsIndex===1?'active':''}}">
+    <view bindtap='changeTabs' data-index='{{1}}'>
+      我报名的活动
+    </view>
+  </view>
+</view>
+<view class='tabs-item curriculum-list-wrap' hidden='{{tabsIndex!==0}}'>
+  <curriculum curriculumList="{{orderForm[0].list}}"></curriculum>
+</view>
+<view class='tabs-item activity-list-wrap' hidden='{{tabsIndex!==1}}'>
+  <activity activityList="{{orderForm[1].list}}"></activity>
+</view>

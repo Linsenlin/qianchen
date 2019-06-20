@@ -1,0 +1,74 @@
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.week-wrap {
+  padding: 15rpx 0;
+  box-sizing: border-box;
+  background: #fff;
+  display: flex;
+  border-top: 1rpx solid #bebebe;
+  border-bottom: 1rpx solid #bebebe;
+}
+
+.week-item {
+  float: left;
+  margin: auto;
+  text-align: center;
+  background: #d7d7d7;
+  border-radius: 50%;
+  width: 50rpx;
+  line-height: 50rpx;
+  color: #fff;
+  font-size: 20rpx;
+}
+
+.week-active {
+  background: #fff;
+  border: 2rpx solid #0072d2;
+  width: 60rpx;
+  line-height: 60rpx;
+  color: #0072d2;
+  font-size: 28rpx;
+}
+
+.schedule-list {
+  padding-bottom: 50rpx;
+}
+
+.schedule-item {
+  padding: 30rpx 0;
+  background: #0f74cc;
+  border-radius: 15rpx;
+  margin-top: 25rpx;
+}
+
+.schedule-item>view {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 32rpx;
+  letter-spacing: 2rpx;
+}
+
+.schedule-left {
+  line-height: 100rpx;
+  text-align: center;
+  border-right: 1rpx solid #fff;
+}
+
+.schedule-right {
+  padding: 0 20rpx;
+  line-height: 50rpx;
+}
+
+.schedule-address {
+  font-size: 20rpx;
+  line-height: 28rpx;
+}

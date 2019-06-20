@@ -1,0 +1,49 @@
+<view class='user-img'>
+  <image src='{{userInfo.avatar}}' mode='widthFix'></image>
+</view>
+
+<view class='sex clearfix'>
+  <view class="{{userInfo.sex===1?'active':''}}" bindtap='selectSex' data-index='{{1}}'>
+    <image class='img' src='{{static}}/boy.png' mode="widthFix"></image>
+    <image class='img1' src='{{static}}/boy1.png' mode="widthFix"></image>
+    男
+  </view>
+  <view class="{{userInfo.sex===2?'active':''}}" bindtap='selectSex' data-index='{{2}}'>
+    <image class='img' src='{{static}}/girl.png' mode="widthFix"></image>
+    <image class='img1' src='{{static}}/girl1.png' mode="widthFix"></image>
+    女
+  </view>
+</view>
+
+<view class='user-info'>
+  <view class='clearfix user-info-item'>
+    <view>
+      * 学员姓名
+    </view>
+    <input value="{{userInfo.user_name_b}}" bindinput="inputChange" data-key="user_name_b" />
+  </view>
+  <view class='clearfix user-info-item'>
+    <view>
+      * 手机号码
+    </view>
+    <input value="{{userInfo.mobile}}" bindinput="inputChange" data-key="mobile" />
+  </view>
+  <view class='clearfix user-info-item'>
+    <view>
+      * 选择校区
+    </view>
+    <picker bindchange="selectSchool" value="{{schoolIndex}}" range="{{schoolList}}" range-key="school_name">
+      <view class="picker">
+        {{schoolList[schoolIndex].school_name}}
+      </view>
+    </picker>
+  </view>
+</view>
+
+<view class='send-user-info' bindtap='sendUserData'>
+  保存
+</view>
+
+<view class='hint'>
+  备注：请完善个人信息，以便准确的训练
+</view>

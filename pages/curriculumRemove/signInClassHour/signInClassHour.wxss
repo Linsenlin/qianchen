@@ -1,0 +1,24 @@
+.class-hour-list {
+  width: 690rpx;
+  margin: 30rpx auto;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.class-hour-item {
+  padding-left: 60rpx;
+  font-size: 24rpx;
+  line-height: 92rpx;
+  border-top: 2rpx dashed #e2e2e2;
+}
+
+.class-hour-list>view:nth-of-type(1) {
+  border: none;
+}
+
+.class-hour-item view {
+  display: inline-block;
+  width: 50rpx;
+}

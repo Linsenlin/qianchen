@@ -1,0 +1,233 @@
+.swiper-camp {
+  height: 400rpx;
+}
+
+.swiper-camp image {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+}
+
+.banner {
+  height: 400rpx;
+}
+
+.banner>navigator {
+  height: 400rpx;
+  display: block;
+}
+
+.banner>.slide-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.content-wrap {
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  background: #fff;
+}
+
+.news-banner {
+  position: relative;
+}
+
+.news-banner>image {
+  float: left;
+  width: 100%;
+}
+
+.news-banner view {
+  position: absolute;
+  width: 100%;
+  line-height: 46rpx;
+  font-size: 32rpx;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news-list>view:nth-of-type(n+2) {
+  border-top: 1px solid #ebebeb;
+}
+
+.news-item {
+  padding: 30rpx 0;
+}
+
+.news-item image {
+  float: left;
+  width: 170rpx;
+  height: 120rpx;
+}
+
+.news-item-text {
+  float: left;
+  width: 500rpx;
+  padding-left: 20rpx;
+}
+
+.news-item-text view:nth-of-type(1) {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 32rpx;
+  color: #000;
+}
+
+.news-item-text view:nth-of-type(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  font-size: 28rpx;
+  color: #a1a1a1;
+}
+
+/* 当前校区 */
+
+.current-campus {
+  padding: 20rpx 30rpx;
+  background: #fff;
+  font-size: 34rpx;
+  line-height: 54rpx;
+}
+
+.current-campus navigator {
+  display: inline-block;
+  color: #2380d0;
+}
+
+.change-btn {
+  display: inline-block;
+  padding: 0 50rpx 0 20rpx;
+  line-height: 54rpx;
+  border-radius: 50rpx;
+  margin-right: 20rpx;
+
+  color: #fff;
+}
+
+/* 热门课程 */
+
+.curriculum-item {
+  margin-bottom: 30rpx;
+  display: inline-block;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+
+.curriculum-title {
+  display: inline-block;
+  font-size: 26rpx;
+  color: #fff;
+  line-height: 44rpx;
+  border: 3rpx solid #fff;
+  border-radius: 50rpx;
+  padding-right: 25rpx;
+  overflow: hidden;
+}
+
+.curriculum-title view {
+  float: left;
+  padding: 0 25rpx;
+  background: #fff;
+  color: #f58323;
+  border-radius: 50rpx;
+  margin-right: 15rpx;
+}
+
+.curriculum-timeout {
+  font-size: 22rpx;
+  color: #fff;
+  margin: 30rpx 0;
+}
+
+/* 营区团队 */
+
+.leader {
+  margin-bottom: 30rpx;
+}
+
+.leader>view {
+  float: left;
+  width: 415rpx;
+  box-sizing: border-box;
+  padding-left: 20rpx;
+}
+
+.leader-img {
+  float: left;
+  width: 276rpx;
+  height: 370rpx;
+}
+
+.leader-info {
+  float: left;
+  width: 370rpx;
+  margin-left: 40rpx;
+}
+
+.leader-name, .coach-name {
+  font-size: 36rpx;
+  color: #000;
+  height: 80rpx;
+}
+
+.leader-introduce, .coach-introduce {
+  font-size: 22rpx;
+  color: #8f8f8f;
+  line-height: 38rpx;
+  margin-top: 10rpx;
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+.watch-detail, .coach-detail {
+  font-size: 24rpx;
+  color: #036dc9;
+  line-height: 44rpx;
+  padding: 0 25rpx;
+  border: 1rpx solid #036dc9;
+  border-radius: 50rpx;
+  display: inline-block;
+  margin-top: 20rpx;
+  text-align: left;
+}
+
+.coach-list {
+  padding-bottom: 50rpx;
+}
+
+.coach-list>view:nth-of-type(n+2) {
+  margin-left: 20rpx;
+}
+
+.coach-item {
+  float: left;
+  width: 217rpx;
+  text-align: center;
+}
+
+.coach-img {
+  width: 100%;
+  height: 290rpx;
+}
+
+.coach-introduce {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}

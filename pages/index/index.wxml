@@ -1,0 +1,25 @@
+<!-- <view class='head clearfix'>
+  <view class='search'>
+    <input placeholder='请输入搜索关键字' value="{{searchText}}" />
+    <view class='search-btn' style='background:url({{static}}/search.png) no-repeat 50% 50%/160%;'></view>
+  </view>
+</view> -->
+<swiper class='swiper-camp' indicator-dots="true" autoplay="true" indicator-color="#fff"
+  indicator-active-color="#025194">
+  <swiper-item wx:for="{{bannerImgs}}" wx:key="index">
+    <navigator url='{{item.url}}'>
+      <image src='{{item.img}}'></image>
+    </navigator>
+  </swiper-item>
+</swiper>
+
+<view class='content-wrap'>
+  <title icon="{{static}}/activity.png" text="最新活动" url="../activity/activity"></title>
+  <activity activityList="{{activityList}}"></activity>
+</view>
+
+<view class='content-wrap'>
+  <title icon="{{static}}/news.png" text="学院头条" url="../news/news?id="></title>
+  <newsBanner data="{{newsBanner}}"></newsBanner>
+  <news newsList="{{newsList}}"></news>
+</view>

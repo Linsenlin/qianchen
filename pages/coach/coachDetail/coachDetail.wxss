@@ -1,0 +1,81 @@
+page {
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.coach {
+  padding: 30rpx;
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+}
+
+.coach image {
+  float: left;
+  width: 150rpx;
+}
+
+.coach-right {
+  float: left;
+  padding-left: 40rpx;
+  width: 480rpx;
+  box-sizing: border-box;
+}
+
+.coach-name {
+  font-size: 34rpx;
+  color: #333;
+}
+
+.coach-info {
+  margin-top: 10rpx;
+}
+
+.coach-info view {
+  float: left;
+  font-size: 26rpx;
+  line-height: 30rpx;
+}
+
+.coach-info view:nth-of-type(1) {
+  color: #666;
+}
+
+
+.coach-info view:nth-of-type(2) {
+  color: #333;
+  width: 360rpx;
+  box-sizing: border-box;
+  padding-left: 10rpx;
+}
+
+.detail {
+  padding: 30rpx;
+  border-radius: 20rpx;
+  background: #fff;
+  margin-top: 30rpx;
+}
+
+.detail-title {
+  border-bottom: 2rpx solid #ccc;
+}
+
+.detail-title view {
+  float: left;
+  font-size: 34rpx;
+  line-height: 80rpx;
+  border-bottom: 5rpx solid #0f74cc;
+}
+
+.detail-item-title {
+  padding-left: 30rpx;
+  font-size: 26rpx;
+  color: #0f74cc;
+  margin: 30rpx 0;
+}
+
+.detail-item {
+  font-size: 22rpx;
+  color: #666;
+  line-height: 48rpx;
+}

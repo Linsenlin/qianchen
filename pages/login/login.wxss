@@ -1,0 +1,9 @@
+.login {
+  width: 300rpx;
+  border: none;
+  background: green;
+  color: #fff;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  margin: 100rpx auto;
+}

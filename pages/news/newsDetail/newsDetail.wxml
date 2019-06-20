@@ -1,0 +1,10 @@
+<view class='news-detail'>
+  <view class='news-title'>{{newsDetail.title}}</view>
+  <view class='news-info clearifx'>
+    <view style='background:url({{static}}/img6_03.png) no-repeat 0 50%/24rpx;'>{{newsDetail.add_time}}</view>
+    <view style='background:url({{static}}/img6_06.png) no-repeat 0 50%/28rpx;'>{{newsDetail.scan_count}}</view>
+  </view>
+  <image src='{{newsDetail.img}}' class="news-img" mode="widthFix"></image>
+  <rich-text class='news-content' nodes="{{newsDetail.content}}">
+  </rich-text>
+</view>

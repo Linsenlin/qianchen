@@ -1,0 +1,56 @@
+.swiper-camp {
+  height: 400rpx;
+}
+
+.swiper-camp image {
+  width: 100%;
+  height: 400rpx;
+  display: block;
+}
+
+.banner {
+  height: 400rpx;
+}
+
+.banner>navigator {
+  height: 400rpx;
+  display: block;
+}
+
+.banner>.slide-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.head {
+  padding: 22rpx 28rpx;
+}
+
+.search {
+  float: left;
+  background: #c9dcef;
+  padding: 0 35rpx;
+  border-radius: 80rpx;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search>input {
+  height: 70rpx;
+  font-size: 26rpx;
+  width: 90%;
+  float: left;
+}
+
+.search-btn {
+  float: right;
+  width: 35rpx;
+  height: 70rpx;
+}
+
+.content-wrap {
+  padding: 0 30rpx;
+  margin-top: 30rpx;
+  background: #fff;
+}

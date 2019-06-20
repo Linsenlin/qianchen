@@ -1,0 +1,14 @@
+<view class='news-list'>
+  <navigator class='news-item clearfix' wx:for="{{newsList}}" wx:key="index" url='../../pages/news/newsDetail/newsDetail?id={{item.id}}'>
+    <image src='{{item.img}}'></image>
+    <view class='news-item-text'>
+      <view>
+        {{item.title}}
+      </view>
+      <view>
+        <rich-text nodes="{{item.content}}">
+        </rich-text>
+      </view>
+    </view>
+  </navigator>
+</view>

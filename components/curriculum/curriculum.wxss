@@ -1,0 +1,28 @@
+.curriculum-item {
+  margin-bottom: 30rpx;
+  display: inline-block;
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+  min-height: 150rpx;
+}
+
+.curriculum-title {
+  display: inline-block;
+  font-size: 26rpx;
+  color: #fff;
+  line-height: 44rpx;
+  border-radius: 50rpx;
+  padding-right: 25rpx;
+  overflow: hidden;
+}
+
+.curriculum-title view {
+  float: left;
+  padding: 0 25rpx;
+  background: #fff;
+  color: #f58323;
+  border-radius: 50rpx;
+  margin-right: 15rpx;
+}

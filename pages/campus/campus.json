@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "title": "../../components/public/title/title",
+    "curriculum": "../../components/curriculum/curriculum",
+    "news": "../../components/news/news",
+    "newsBanner": "../../components/news/newsBanner/newsBanner",
+    "schedule": "../../components/schedule/schedule"
+  },
+  "navigationBarTitleText": "营区"
+}

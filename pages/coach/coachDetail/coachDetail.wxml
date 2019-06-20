@@ -1,0 +1,50 @@
+<view class='coach clearfix'>
+  <image src='{{coachData.avatar}}' mode='widthFix'></image>
+  <view class='coach-right'>
+    <view class='coach-name'>{{coachData.name}}</view>
+    <view class='coach-info clearfix'>
+      <view>
+        教龄：
+      </view>
+      <view>
+        {{coachData.experience}}
+      </view>
+    </view>
+  </view>
+</view>
+
+<view class="detail">
+  <view class="detail-title clearfix">
+    <view>
+      详细介绍
+    </view>
+  </view>
+  <view class="detail-list">
+    <view>
+      <view class="detail-item-title">
+        简介
+      </view>
+      <view class="detail-item">
+        <rich-text nodes="{{coachData.instruction}}">
+        </rich-text>
+      </view>
+    </view>
+    <view>
+      <view class="detail-item-title">
+        运动生涯
+      </view>
+      <view class="detail-item">
+        {{coachData.sport_exp}}
+      </view>
+    </view>
+    <view>
+      <view class="detail-item-title">
+        技术特点
+      </view>
+      <view class="detail-item">
+        {{coachData.skill}}
+      </view>
+
+    </view>
+  </view>
+</view>

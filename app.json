@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/curriculumRemove/curriculumRemove",
+    "pages/curriculumRemove/signInClassHour/signInClassHour",
+    "pages/protocol/protocol",
+    "pages/data/data",
+    "pages/my/my",
+    "pages/userInfo/userInfo",
+    "pages/orderForm/orderForm",
+    "pages/coach/coachDetail/coachDetail",
+    "pages/campus/campus",
+    "pages/coach/coach",
+    "pages/curriculum/curriculum",
+    "pages/curriculum/curriculumDetail/curriculumDetail",
+    "pages/campus/selectCampus/selectCampus",
+    "pages/index/index",
+    "pages/news/newsDetail/newsDetail",
+    "pages/news/news",
+    "pages/activity/activity",
+    "pages/activity/activityDetail/activityDetail",
+    "pages/schedule/schedule"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Ouchen Football Academy",
+    "navigationBarTextStyle": "black",
+    "onReachBottomDistance": 100
+  },
+  "tabBar": {
+    "selectedColor": "#0f74cc",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home_b.png"
+      },
+      {
+        "pagePath": "pages/campus/campus",
+        "text": "营区",
+        "iconPath": "images/house.png",
+        "selectedIconPath": "images/house_b.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/man.png",
+        "selectedIconPath": "images/man_b.png"
+      }
+    ]
+  }
+}

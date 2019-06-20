@@ -1,0 +1,8 @@
+<view class='tabs clearfix'>
+  <view wx:for="{{tabsBtn}}" class="{{tabsIndex===index?'tabs-active':''}}" wx:key="index" data-index='{{index}}' bindtap='changeTabs'>
+    <text>{{item.text}}</text>
+  </view>
+</view>
+<view class='activity-list-wrap'>
+  <activity activityList="{{activityList[tabsIndex].list}}"></activity>
+</view>

@@ -1,0 +1,18 @@
+<view class='data-item'>
+  <view class='item-title'>
+    {{progressData.title}}
+  </view>
+  <view class='data-detail-list clearfix'>
+    <view class='detail-item' wx:for="{{progressData.resData}}" wx:key="index">
+      <view class='detail-item-title clearfix'>
+        <view>
+          {{item.name}}
+        </view>
+        <view>
+          {{item.value}}
+        </view>
+      </view>
+      <progress class="progress" percent="{{item.value}}" color="{{item.styleColor}}" stroke-width="10" active border-radius="50px" />
+    </view>
+  </view>
+</view>
